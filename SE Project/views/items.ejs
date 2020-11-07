@@ -1,0 +1,15 @@
+<h1>Inventory Items</h1>
+
+<p>Inventory items will be displayed here</p>
+
+<%  items.forEach(function(item){ %>
+    <div>
+        <h1>Name: <%= item.name %></h1>
+        <h1>Quantity: <%= item.quantity %></h1>
+    </div>
+    <br>
+<% }) %>
+
+<script>
+    document.title = "Items";
+</script>
